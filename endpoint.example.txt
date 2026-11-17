@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────────
+#  VishSi — API endpoint (base URL)
+#
+#  Put the base URL for your key on the last line of this file, then save.
+#  VishSi re-reads this file on every request, so you can switch providers
+#  without restarting the server.
+#
+#  Any OpenAI-compatible /chat/completions endpoint works:
+#    NVIDIA NIM  https://integrate.api.nvidia.com/v1
+#    OpenAI      https://api.openai.com/v1
+#    OpenRouter  https://openrouter.ai/api/v1
+#    Groq        https://api.groq.com/openai/v1
+#    Together    https://api.together.xyz/v1
+#    Ollama      http://localhost:11434/v1
+#
+#  Anthropic's own API is also supported — use the bare host, with no /v1:
+#    Anthropic   https://api.anthropic.com
+#  (VishSi detects api.anthropic.com and switches to the Messages API.)
+#
+#  Optionally add a second line with a default model id, e.g.
+#    https://integrate.api.nvidia.com/v1
+#    nvidia/nemotron-3.5-lightning-30b-a3b
+#
+#  Lines starting with # are ignored, and so are blank lines.
+# ─────────────────────────────────────────────────────────────────────
+
+Enter the Url of Endpoint here

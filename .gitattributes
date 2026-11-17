@@ -1,0 +1,9 @@
+# Normalise line endings: store LF in the repo, check out native on Windows.
+* text=auto eol=lf
+
+# Keep these binary-ish files byte-exact.
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary

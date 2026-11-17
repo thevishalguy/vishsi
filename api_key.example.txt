@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────────────
+#  VishSi — API key
+#
+#  Paste your API key on the last line of this file, then save.
+#  VishSi re-reads this file on EVERY request, so you can swap a key at
+#  any time without restarting the server.
+#
+#  The matching endpoint goes in endpoint.txt (next to this file).
+#
+#  Examples:
+#    NVIDIA NIM  nvapi-...         https://integrate.api.nvidia.com/v1
+#    OpenAI      sk-...            https://api.openai.com/v1
+#    OpenRouter  sk-or-...         https://openrouter.ai/api/v1
+#    Groq        gsk_...           https://api.groq.com/openai/v1
+#    Together    ...               https://api.together.xyz/v1
+#    Anthropic   sk-ant-...        https://api.anthropic.com
+#    Ollama      ollama            http://localhost:11434/v1
+#
+#  Lines starting with # are ignored, and so are blank lines.
+#  This file is in .gitignore — it is never committed.
+# ─────────────────────────────────────────────────────────────────────
+  Enter Your API Key here
+

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+
+# Holds a secret — never commit it.
+api_key.txt
+
+# Per-machine endpoint choice.
+endpoint.txt
+
+.vishsi/
+*.log
